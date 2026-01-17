@@ -26,7 +26,7 @@ const searchBar = () => {
     <div className="">
       <div className="flex bg-amber-100 bg-slate-4cd00 h-[8vh] md:h-[10vh] justify-center w-full border shadow-lg border-l-0 border-r-0 border-t-0 border-gray-500 flex-wrap">
         <div className="h-[5vh] md:h-[7.5vh] w-[11vh] sm:w-[12vh] md:w-[30vh] right-[4.8vh] relative sm:right-[10vh] md:right-[50vh] top-4.5  md:top-3 cursor-pointer ">
-          <img src={logo} alt="App Logo" />
+           <img src={logo} alt="App Logo" onClick={()=>{window.location.reload()}} />
 
         </div>
         <div className="  h-[4vh] md:h-[6vh] flex  items-center border mt-[2vh] md:mt-[2vh] w-[47vw] sm:w-[50vw] md:w-[63vh] bg-rose-200 border-black rounded-4xl">
