@@ -25,7 +25,7 @@ const searchBar = () => {
   return (
     <div className="">
       <div className="flex bg-amber-100 bg-slate-4cd00 h-[8vh] md:h-[10vh] justify-center w-full border shadow-lg border-l-0 border-r-0 border-t-0 border-gray-500 flex-wrap">
-        <div className="h-[5vh] md:h-[7.5vh] w-[11vh] sm:w-[12vh] md:w-[30vh] right-[7vh] relative sm:right-[10vh] md:right-[50vh] top-4.5  md:top-3 cursor-pointer ">
+        <div className="h-[5vh] md:h-[7.5vh] w-[11vh] sm:w-[12vh] md:w-[30vh] right-[4.8vh] relative sm:right-[10vh] md:right-[50vh] top-4.5  md:top-3 cursor-pointer ">
           <img src={logo} alt="App Logo" />
 
         </div>
@@ -55,7 +55,7 @@ const searchBar = () => {
 
         </div>
 
-         <div className="relative sm:left-0 top-2.5  cursor-pointer md:left-[50vh] left-[7vh] sm:block">
+         <div className="relative sm:left-0 top-2.5  cursor-pointer md:left-[50vh] left-[4.8vh] sm:block">
 
                 <FaGithub className="text-[22px] mt-[1vh] sm:text-[24px] md:text-[30px]" onClick={onclick} />
 
